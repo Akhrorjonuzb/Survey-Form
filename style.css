@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@200;700&family=Karla&family=Kumbh+Sans:wght@100;400&family=Lexend+Deca&family=Open+Sans:wght@300;400&family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@200;700&family=Karla&family=Kumbh+Sans:wght@100;400&family=Lexend+Deca&family=Open+Sans:wght@300;400&family=Poppins:wght@500&family=Roboto:ital,wght@0,500;1,500&display=swap');
+
+body{
+    /* background-color: #7C99AC; */
+    background-color: #0A0A22;
+    
+    font-family: 'Roboto', sans-serif;;
+}
+
+h1, p{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.heading{
+    text-align: center;
+}
+#description{
+    font-size: 1.3rem;
+}
+.container{
+    background-color: #2B2946;
+    width: 650px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+border-radius: 10px;
+font-size: 1.2rem;
+color: #fff;
+font-family: 'Open Sans', sans-serif;;
+}
+
+/* Name div */
+
+.name{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+#name {
+
+padding: 10px;
+margin: 5px 80px;
+border-radius: 5px;
+
+
+}
+/* label ids */
+#name-label{
+    color: silver;
+    margin-left: 80px;
+}
+
+/* Email div */
+.email{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#email{
+    padding: 10px;
+margin: 5px 80px;
+border-radius: 5px;
+}
+#email-label{
+    margin-left: 80px;
+    color: silver;
+}
+
+/* Age div */
+.age{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#age{
+    padding: 10px;
+margin: 5px 80px;
+border-radius: 5px;
+}
+#number-label{
+    margin-left: 80px;
+    color: silver;
+}
+
+/* Current div */
+.current{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.option-label{
+    margin-left: 80px;
+    color: silver;
+}
+#dropdown{
+    padding: 10px;
+margin: 5px 80px;
+border-radius: 5px;
+font-size: 1.2rem;
+}
+
+/* Radio div */
+
+.radio{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.radio-label{
+    margin-left: 80px;
+    color: silver;
+}
+#indoor{
+    margin-left: 80px;
+    
+    
+}
+.outdoor{
+    width: 20px;
+    height: 20px;
+    
+}
+
+/* Favorite div */
+.favorite{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.feature-label{
+    margin-left: 80px;
+    color: silver;
+}
+
+/* Checkboxes div */
+.checkboxes{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.chexboxes-label{
+    margin-left: 80px;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    
+   
+}
+.checkboxes-apply{
+    margin-left: 80px;
+    color: silver;
+}
+
+/* Textarea div*/
+.textarea{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.suggestion{
+    margin-left: 80px;
+    color: silver;
+}
+#textarea{
+    padding: 10px;
+margin: 5px 80px;
+border-radius: 5px;
+}
+
+/* Buttons div */
+.btn{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#submit{
+    padding: 10px;
+margin: 5px 80px;
+border-radius: 5px;
+font-size: 1.2rem;
+font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 680px) {
+    .container{
+        width: auto;
+        margin: 20px;
+
+
+    }
+    
+    #name {
+       
+        margin: 5px 60px;
+        
+        }
+        #name-label{
+            margin-left: 60px;
+        }
+    #email{
+        margin: 5px 60px;
+    }
+    #email-label{
+        margin-left: 60px;
+    }
+    #age{
+        margin: 5px 60px;
+    }
+#number-label{
+    margin-left: 60px;
+}
+
+.option-label{
+    margin-left: 60px;
+}
+#dropdown{
+    margin: 5px 60px;
+}
+
+.radio-label{
+    margin-left: 60px;
+}
+#indoor{
+    margin-left: 60px;
+}
+
+.feature-label{
+margin-left: 60px;
+}
+
+.chexboxes-label{
+    margin-left: 60px;
+}
+.checkboxes-apply{
+    margin-left: 60px;
+}
+
+.suggestion{
+    margin-left: 60px;
+}
+#textarea{
+    padding: 10px;
+margin: 5px 60px;
+border-radius: 5px;
+}
+
+#submit{
+    padding: 10px;
+margin: 5px 60px;
+border-radius: 5px;
+}
+    
+    }
